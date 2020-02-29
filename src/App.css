@@ -1,0 +1,234 @@
+.btns{
+    color: #fff;
+    border-radius: 99px;
+    padding: 14px 26px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* background-color: #2C509F; */
+    transition: background-color 250ms ease;
+    box-shadow: 0px 1px 9px -2px grey;
+    /* user-select: none; */
+    background-color: #f5ad28;
+}
+.quote{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #f5ad2b;
+    font-weight: bold;
+    text-shadow: 10px 4px 13px yellow;
+}
+
+.landingimgdiv{
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+.landingh2{
+    color: white;
+    font-size: 4rem;
+}
+
+.cardsmimg{
+    width: 61px;
+    border-radius: 22px 23px 22px 24px;
+    margin-top: -46px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    right: 17px;
+    border: 3px solid white;
+}
+.cardsimgbig{
+    position: absolute;
+    margin-left: -84px;
+    width: 84px;
+    box-shadow: rgba(106, 100, 95, 0.15) 10px 2px 9px -3px;
+    margin-top: 11%;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 90px;
+}
+.cardsmimgup{
+    width: 61px;
+    border-radius: 22px 23px 22px 24px;
+    margin-top: -46px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    right: 66px;
+    border: 3px solid white;
+}
+
+.dp{
+    font-size: 0.8rem;
+    padding: 10px 0px 2px 16px;
+    color: #03A9F4;
+    font-weight: bold;
+}
+
+.chead{
+    color: #2C509F;
+    margin-top: 4px;
+}
+.layoutupperdiv{
+    background-color: whitesmoke;
+    /* padding-bottom: 30px; */
+    padding: 1px 43px 46px 43px;
+}
+.layoutupperdivblog{
+    margin-top: 12%;
+    background-color: whitesmoke;
+    /* padding-bottom: 30px; */
+    padding: 1px 43px 46px 43px;
+}
+.layoutupperdivint{
+    margin-top: 12%;
+    background-color: whitesmoke;
+    /* padding-bottom: 30px; */
+    padding: 1px 43px 1px 43px;
+}
+/* .ui .grid{
+    margin-top: -7rem;
+} */
+.blogup{
+    margin-top: -7rem;
+}
+.layoutlowerdiv{
+    padding: 1px 43px 46px 43px;
+}
+.joblayoutlowerdiv{
+    padding: 1px 43px 46px 139px;
+}
+.layoutlowerdivblog{
+    padding: 1px 135px 30px 135px;
+    background-color: whitesmoke;
+}
+.layoutlowerdivservices{
+    padding: 1px 50px 30px 50px;
+    background-color: whitesmoke;
+}
+.layoutlowerdivauth{
+    padding: 1px 135px 30px 135px;
+    text-align: center;
+    margin-top: 10%;
+    /* background-color: whitesmoke; */
+}
+.layoutlowerdiv1{
+    padding: 1px 43px 46px 43px;
+    padding-top: 4%;
+}
+.coll{
+    margin: auto;
+    padding-left: 7%;
+}
+.grey{
+    background: #d2d2d2;
+    width: 2px;
+    height: 73%;
+    margin-top: 4%;
+}
+.imgscard{
+    width:'88%'
+}
+.divh{
+    color:'#2C509F';
+    padding:'0px 7px 0px 20px';
+    font-size:'3rem';
+    font-weight:'bold'
+}
+.iconsserv{
+    text-align: center;
+    font-size: 85px;
+    margin-top: 6%;
+    color: #ffd570;
+}
+
+@media screen and (max-width: 990px){
+    .cardsimgbig{
+        position: absolute;
+        margin-left: 20px;
+        width: 84px;
+        box-shadow: rgba(106, 100, 95, 0.15) 10px 2px 9px -3px;
+        margin-top: -13%;
+        border: 3px solid white;
+        border-radius: 50%;
+        width: 75px;
+    }
+    .layoutlowerdivblog{
+        padding: 1px 0px 39px 0px;
+    }
+    .layoutlowerdivservices{
+        padding: 1px 0px 39px 0px;
+    }
+    .layoutupperdivblog{
+        padding: 30px 0px 1px 0px;
+    }
+    .layoutupperdivint{
+        padding: 30px 0px 1px 0px;
+    }
+    .layoutlowerdivauth{
+        padding: 1px 0px 39px 0px;
+        /* background-color: whitesmoke; */
+    }
+    .authupform{
+        padding-bottom: 7%;
+    }
+}
+
+.ui.rating .active.icon{
+    color: rgb(117, 210, 250);
+}
+
+@media screen and (max-width: 768px) {
+    .layoutlowerdiv{
+        padding: 0px;
+    }
+    .joblayoutlowerdiv{
+        padding: 0px;
+    }
+    .imgscard{
+        width:'115%'
+    }
+    .header{
+        font-size: 16px;
+    }
+    .layoutupperdiv{
+        padding: 0px;
+    }
+    .layoutlowerdiv1{
+        padding: 0px;
+    }
+    .form{
+        width: 100%;
+      }
+      .headfoot{
+        width: 100%;
+      }
+      .container{
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+      .divh{
+          font-size: 2rem;
+      }
+  }
