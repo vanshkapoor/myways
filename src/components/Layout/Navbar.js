@@ -64,12 +64,10 @@ const Navbar = (props) => {
                  <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
                 {/* {data} */}
                 <div className="navcontent">
-                    <Link to="/interviews">     Home</Link>
-                    <Link to="/blog">    About us</Link>
-                    <Link to="/services">     Services</Link>
-                    <Link to="/courses">    Join us</Link>
-                    <Link to="/jobs">     Campus manager</Link>
-                    <Link to="/login">     SignIn</Link>
+                    <Link to="/">     Home</Link>
+                    <Link to="/about">    About us</Link>
+                    <Link to="/model">     Model</Link>
+                    <Link to="/services">    Services</Link>
 
                 </div>
             </div>
@@ -87,12 +85,12 @@ const Navbar = (props) => {
                         <Link to="/writefn" style={{'color':'black','textDecoration':'none'}}><h2 className={props.head == "Create"?'navrighttags black':'navrighttags'} >Interviews</h2></Link>
                         :null
                         }
-                        <Link to="/interviews" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Home</h2></Link>
-                        <Link to="/blog" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>About Us</h2></Link>
+                        <Link to="/" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Home</h2></Link>
+                        <Link to="/about" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>About Us</h2></Link>
+                        <Link to="/model" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Model</h2></Link>
                         <Link to="/services" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Services</h2></Link>
-                        <Link to="/courses" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Join Us</h2></Link>
-                        <Link to="/jobs" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Campus Manager</h2></Link>
-                        <Link to="/login" className="joinbtn"><h2 className={props.head == "login"?'navrighttags black':'navrighttags'}>SignIn</h2></Link>
+                        {/* <Link to="/jobs" style={{'color':'#ffd369','textDecoration':'none','paddingRight':'23px'}}><h2 className={props.head == "explore"?'navrighttags black':'navrighttags'}>Campus Manager</h2></Link> */}
+                        {/* <Link to="/login" className="joinbtn"><h2 className={props.head == "login"?'navrighttags black':'navrighttags'}>SignIn</h2></Link> */}
 
 
                         {/* <Link to="/company" style={{'color':'black','textDecoration':'none'}}><h2  className={props.head == "company"?'navrighttags black':'navrighttags'} >COMPANY</h2></Link> */}

@@ -7,6 +7,7 @@ import Lcard from './Utils/Lcard'
 import Scard from './Utils/Scard'
 import Footer from './Layout/Footer'
 import '../App.css'
+import Simgcard from './Utils/SimgCard'
 
 const LandingPage = () => {
 
@@ -32,13 +33,22 @@ const LandingPage = () => {
         <div className='layoutupperdiv'>
           <Grid style={{marginBottom:'3rem',marginTop:'-4rem'}} stackable columns={3}>
             <Grid.Column>
-                  <SmallCard img="https://www.myways.in/visitor/ico/Exploration.png" second="true" t1="Finding'MyWays'" t2="The first step towards an effective career decision is knowing yourself at the best. Know about your skills, interests and core values which affect majority of your decisions taken sub-consciously."/>
+                  <SmallCard 
+                  img="https://www.myways.in/visitor/ico/analysis.png"
+                //   img="https://www.myways.in/visitor/ico/Exploration.png" 
+                  second="true" t1="Personalized Career Planning" t2="We use the power of Artificial Intelligence to perform in-depth analysis on student's skill-set, asiprations, psychometrics, interests and experienced people similar to her, to create personalized learning journey"/>
             </Grid.Column>
             <Grid.Column>
-                   <SmallCard img="https://www.myways.in/visitor/ico/Network.png" t1="MyMentors & MyPeers Network" t2="Do you think even after exploring and trying, you can settle well with a career fully satisfied? Perhaps no. Here is where you need proper guidance and a good environment to pursue your dream."/>
+                   <SmallCard 
+                   img="https://www.myways.in/visitor/ico/upskill.png"
+                //    img="https://www.myways.in/visitor/ico/Network.png" 
+                   t1="Filling Gaps via Upskilling" t2="Next, the employability gaps are identified and the best courses and industrial training across various platforms are provided to create a personalized learning and upskilling plan to become industry-ready."/>
             </Grid.Column>
             <Grid.Column>
-                    <SmallCard img="https://www.myways.in/visitor/ico/Knowing%20yourself.png" second="true" t1="Hands-On Experience" t2="A good psychometric test is not all that can help one decide a career. Career is a journey not a destination. Explore your interest areas by trying them hands-on." />
+                    <SmallCard 
+                    img="https://www.myways.in/visitor/ico/employed.png"
+                    // img="https://www.myways.in/visitor/ico/Knowing%20yourself.png"
+                    second="true" t1="Getting Career-Ready & Employable" t2="Furthermore, the student is connected with the companies with internship profiles best-fit for her career to get some real industry exposure and experience in order to be career-ready and employable." />
             </Grid.Column>
           </Grid>
 
@@ -47,19 +57,19 @@ const LandingPage = () => {
       <div className="layoutlowerdiv">
 {/* Latest articles */}
 <div className="text-center mb-4 mt-4">
-<h1 style={{color:"rgb(245, 173, 0)",padding:'20px 0px 20px 0px',fontSize:'3rem'}}>Get an in-depth insight of your own Self</h1>
+<h1 style={{color:"rgb(245, 173, 0)",padding:'20px 0px 20px 0px',fontSize:'3rem'}}>Create Highly Personalized Career Plans</h1>
 </div>
 {/* <Grid> */}
     {/* <Grid.Column width={16}> */}
-    <Grid stackable columns={3}>
-          <Grid.Column>
-              <p style={{fontSize:'1.3rem'}}>Know yourself better to make the best use of your potential and stop following the herd.</p>
+    <Grid stackable columns={3} style={{marginTop:'5%',marginBottom:'5%'}}>
+          <Grid.Column style={{borderLeft: '7px solid #FF9800'}}>
+              <p style={{fontSize:'1.3rem'}}>Career-Profiling with a 4-Dimensional holistic analysis of the student using Artificial Intelligence and Psychometrics.</p>
           </Grid.Column>
-          <Grid.Column>
-              <p style={{fontSize:'1.3rem'}}>Give our quick and holistic psychometric test</p>
+          <Grid.Column style={{borderLeft: '7px solid #FF9800'}}>
+              <p style={{fontSize:'1.3rem'}}>Creation of Career Plans aligning with skills, personality, aspirations & practicality.</p>
           </Grid.Column>
-          <Grid.Column>
-              <p style={{fontSize:'1.3rem'}}>We provide you with psychometric analysis that is practical, easy to understand and unique.</p>
+          <Grid.Column style={{borderLeft: '7px solid #FF9800'}}>
+              <p style={{fontSize:'1.3rem'}}>Customized statistics about the job market in the selected career field(s) and suggestions on what next steps to take.</p>
           </Grid.Column>
     </Grid>  
     {/* </Grid.Column> */}
@@ -80,7 +90,7 @@ const LandingPage = () => {
 </ul>
 
 <div className="text-center" style={{paddingTop:'6rem',paddingBottom:'2rem'}}>
-          <button className="btns">Explore Myself</button>
+          <button className="btns">Personalise My journey</button>
 </div>
 
 {/* Job Board */}
@@ -112,31 +122,44 @@ Get connected to a robust peer-mentor network, take mentorship from college seni
 </div>
 <Grid stackable columns={2}>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2019/12/gitlab-logo-gray-rgb.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/joshtalks.png" text="Josh Talks"/>
           </Grid.Column>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2020/01/Fortinet-logo-1-1.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/vitc.png" text="VIT chennai"/>
           </Grid.Column>
 </Grid>
 <Grid stackable columns={2}>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2019/12/evernote-og.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/iiitd.png" text="IIIT Delhi"/>
           </Grid.Column>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2019/12/evernote-og.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/bsw_logo.png" text="BSW"/>
           </Grid.Column>
 </Grid>
 <Grid stackable columns={2}>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2019/12/gitlab-logo-gray-rgb.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/msit.png" text="MSIT "/>
           </Grid.Column>
           <Grid.Column>
-              <Scard img="https://itkit.io/wp-content/uploads/2019/12/gitlab-logo-gray-rgb.png"/>
+              <Scard img="https://www.myways.in/visitor/img/Collab/nss.png" text="NSS"/>
           </Grid.Column>
 </Grid>
 
-
-
+<div className="text-center mb-4 mt-4">
+<h1 style={{color:"rgb(245, 173, 0)",padding:'20px 0px 20px 0px',fontSize:'3rem'}}>
+Upskill yourself: A Signle Platfrom for all your Learning Needs</h1>
+</div>
+<Grid stackable columns={3}>
+          <Grid.Column>
+              <Simgcard img="https://www.myways.in/visitor/img/Collab/udemy.png"/>
+          </Grid.Column>
+          <Grid.Column>
+              <Simgcard img="https://www.myways.in/visitor/img/Collab/edx.png"/>
+          </Grid.Column>
+          <Grid.Column>
+              <Simgcard img="https://www.myways.in/visitor/img/Collab/coursera.png"/>
+          </Grid.Column>
+</Grid>
     </div>
 </Container>
 {/* 
